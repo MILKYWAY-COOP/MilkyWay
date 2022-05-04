@@ -19,7 +19,14 @@ nav{
     align-items: center;
 }
 nav img{
+    object-fit: cover;
+    object-position: center;
     width: 150px;
+    height: 100%;
+}
+nav a {
+    height: 100px;
+
 }
 .nav-links{
     flex: 1;
