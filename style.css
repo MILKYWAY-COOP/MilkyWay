@@ -253,6 +253,7 @@ p {
 }
 
 .Us-col {
+  position: relative;
   height: auto;
   width: auto;
   flex-basis: 31%;
