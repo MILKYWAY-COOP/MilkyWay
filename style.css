@@ -253,6 +253,8 @@ p {
 }
 
 .Us-col {
+  height: auto;
+  width: auto;
   flex-basis: 31%;
   padding: 20px 12px;
   border-radius: 10px;
@@ -263,6 +265,10 @@ p {
   cursor: pointer;
   display: flex;
 }
+.Us-col p, h3, h4, strong{
+  font-family:'Comfortaa', cursive;
+}
+
 .Us-col h3 {
   margin-top: 15px;
   font-size: 20px;
